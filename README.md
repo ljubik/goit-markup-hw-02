@@ -1,2 +1,3 @@
-# goit-markup-hw-02
-Основи CSS
+GO IT course
+
+https://ljubik.github.io/goit-markup-hw-02/
