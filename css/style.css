@@ -2,8 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --accent-color: red;
+  --dark-color: #000000;
+}
 a {
   text-decoration: none;
+  color: var(--dark-color);
 }
 
 header {
@@ -42,20 +48,23 @@ header {
   letter-spacing: 0.03em;
 }
 
-.link {
+.list {
+  list-style: none;
   left: 453px;
   top: 32px;
 }
 
 .contacts a {
+  text-decoration-line: none;
   color: var(--primary-text-color);
 }
+
+.link-contact,
 .contacts a:hover,
+.link-contact,
 .contacts a:focus {
-  color: var(--accent-color);
-}
-.contacts a {
-  text-decoration-line: none;
+  /* color: var(--accent-color); */
+  color: red;
 }
 
 .Rectangle1 {
@@ -66,4 +75,8 @@ header {
 
   background: #f5f4fa;
   border-radius: 4px;
+}
+
+address {
+  font-style: normal;
 }
