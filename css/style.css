@@ -12,6 +12,7 @@ font-family: 'Roboto Mono', monospace; */
   --body-color: #757575;
   --link-color: #2196f3;
   --light-color: #ffffff;
+  --footer-bgcolor: #2f303a;
 }
 
 body {
@@ -207,6 +208,12 @@ header {
   color: var(--body-color);
 }
 
+.social:hover,
+.social:focus {
+  color: var(--link-color);
+  border: 1px solid var(--link-color);
+}
+
 .clients {
   text-align: center;
   letter-spacing: 0.03em;
@@ -236,6 +243,23 @@ header {
   border: 1px solid var(--link-color);
 }
 
+footer {
+  left: 1px;
+  background: var(--footer-bgcolor);
+  color: var(--light-color);
+}
+
+.studio-down {
+  color: var(--light-color);
+}
+
 address {
   font-style: normal;
+}
+
+.inpt-mail {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
