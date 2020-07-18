@@ -8,7 +8,6 @@
 font-family: 'Roboto Mono', monospace; */
 
 :root {
-  --accent-color: red;
   --dark-color: #212121;
   --body-color: #757575;
   --link-color: #2196f3;
@@ -42,8 +41,6 @@ header {
   top: 0px;
   margin-top: 24px;
   margin-bottom: 24px;
-
-  /* background: #ffffff; */
 }
 
 .nav {
@@ -58,7 +55,6 @@ header {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  /* position: absolute; */
   left: 215px;
   top: 24px;
 }
@@ -337,6 +333,6 @@ form {
   letter-spacing: 0.03em;
   color: var(--body-color);
 }
-.gallery-txt p {
+.gallery-txt {
   color: var(--light-color);
 }
