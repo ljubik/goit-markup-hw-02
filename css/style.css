@@ -37,6 +37,9 @@ header {
   height: 80px;
   left: 0px;
   top: 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
   /* background: #ffffff; */
 }
 
@@ -76,6 +79,7 @@ header {
   position: absolute;
   width: 1600px;
   height: 600px;
+  margin-bottom: 94px;
   left: 0px;
   top: 80px;
   /* background: rgba(47, 48, 58, 0.8); */
@@ -109,6 +113,7 @@ header {
 }
 
 .benefits {
+  margin-top: 94px;
 }
 
 .benefits p {
@@ -118,19 +123,15 @@ header {
   color: var(--body-color);
 }
 
-benefits h3 {
+.benefits h3 {
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.142;
+  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var (--dark-color);
-  position: absolute;
-  width: 270px;
-  height: 75px;
-  left: 515px;
-  top: 950px;
 }
+
 .Rectangle1 {
   /* width: 270px;
   height: 120px;
@@ -139,6 +140,27 @@ benefits h3 {
 
   background: #f5f4fa;
   border-radius: 4px;
+}
+
+.we-do {
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.we-do h2 {
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+}
+
+.we-do figcaption {
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+}
+
+.team {
 }
 
 address {
