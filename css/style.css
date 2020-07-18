@@ -11,21 +11,25 @@ font-family: 'Roboto Mono', monospace; */
   --dark-color: #212121;
   --body-color: #757575;
   --link-color: #2196f3;
+  --light-color: #ffffff;
 }
 
 body {
   font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-weight: normal;
-  /* font-size: 14px; */
   letter-spacing: 0.03em;
-  color: var(--body-color);
-  /* color: #757575; */
+  color: var(--dark-color);
 }
 
 a {
   text-decoration: none;
   color: var(--dark-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--link-color);
 }
 
 header {
@@ -35,30 +39,27 @@ header {
   top: 0px;
   /* background: #ffffff; */
 }
-
-a:hover,
-a:focus {
-  color: var(--link-color);
+.nav {
 }
 
-.web {
+.logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 0.837;
   letter-spacing: 0.03em;
+  /* position: absolute; */
+  left: 215px;
+  top: 24px;
+}
+
+.web {
   color: var(--link-color);
 }
 
 .studio {
-  color: #000000;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  color: var(--dark-color);
 }
 
 .list {
@@ -67,23 +68,53 @@ a:focus {
   top: 32px;
 }
 
-.contacts a {
-  text-decoration-line: none;
-  color: var(--primary-text-color);
+.wrapper {
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--light-color);
 }
 
-.link-contact,
-.contacts a:hover,
-.link-contact,
-.contacts a:focus {
-  /* color: var(--accent-color); */
-  color: red;
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 0.733;
+  text-transform: uppercase;
 }
 
-.Rectangle1 {
+.btn-hero {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 0.533;
+  display: flex;
+  align-items: center;
+}
+
+.benefits p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--body-color);
+}
+
+benefits h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var (--dark-color);
+  position: absolute;
   width: 270px;
+  height: 75px;
+  left: 515px;
+  top: 950px;
+}
+.Rectangle1 {
+  /* width: 270px;
   height: 120px;
-  /* left: 215px;
+  left: 215px;
   top: 774px; */
 
   background: #f5f4fa;
