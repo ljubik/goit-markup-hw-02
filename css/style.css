@@ -44,6 +44,8 @@ header {
 }
 
 .nav {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .logo {
@@ -73,6 +75,8 @@ header {
 }
 
 .link-contact {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .hero {
@@ -173,13 +177,13 @@ header {
   letter-spacing: 0.03em;
 }
 
-.team-h-text {
-  font-family: Roboto;
+.team-h-text,
+.clients-h-text {
+  font-family: "Roboto Mono", monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.167;
-
   color: var(--dark-color);
   /* margin-top: 94px;
   margin-bottom: 50px; */
@@ -201,6 +205,35 @@ header {
   font-size: 16px;
   line-height: 1.875;
   color: var(--body-color);
+}
+
+.clients {
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.clients-card {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative; /* Для центрування */
+}
+
+.clients-card img {
+  /* Центрування в блоці ає бути в батьківському position: relative */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.clients-card:hover,
+.clients-card:focus {
+  color: var(--link-color);
+  border: 1px solid var(--link-color);
 }
 
 address {
