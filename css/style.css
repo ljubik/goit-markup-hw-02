@@ -47,7 +47,7 @@ header {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 0.837;
+  line-height: 1.192;
   letter-spacing: 0.03em;
   /* position: absolute; */
   left: 215px;
@@ -79,14 +79,14 @@ header {
 .hero {
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.733;
+  line-height: 1.363;
   text-transform: uppercase;
 }
 
 .btn-hero {
   font-weight: bold;
   font-size: 16px;
-  line-height: 0.533;
+  line-height: 1.875;
   display: flex;
   align-items: center;
 }
@@ -101,7 +101,7 @@ header {
 benefits h3 {
   font-weight: bold;
   font-size: 14px;
-  line-height: 0.875;
+  line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var (--dark-color);
