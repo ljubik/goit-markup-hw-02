@@ -5,7 +5,7 @@
 /* *[ Index page style ]* */
 
 /* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto Mono', monospace; */
+font-family: 'Roboto', sans-serif; */
 
 :root {
   --dark-color: #212121;
@@ -17,7 +17,7 @@ font-family: 'Roboto Mono', monospace; */
 }
 
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.03em;
@@ -35,12 +35,12 @@ a:focus {
 }
 
 header {
-  width: 1600px;
+  /* width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
   margin-top: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 24px; */
 }
 
 .nav {
@@ -69,8 +69,8 @@ header {
 
 .list {
   list-style: none;
-  left: 453px;
-  top: 32px;
+  /* left: 453px;
+  top: 32px; */
 }
 
 .link-contact {
@@ -79,17 +79,17 @@ header {
 }
 
 .hero {
-  position: absolute;
+  /* position: absolute;
   width: 1600px;
   height: 600px;
   margin-bottom: 94px;
-  left: 0px;
+  left: 0px; */
   /* top: 80px; */
   /* background: rgba(47, 48, 58, 0.8); */
 }
 
 .wrapper {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   letter-spacing: 0.06em;
   text-align: center;
@@ -104,8 +104,8 @@ header {
 }
 
 .btn-hero {
-  width: 200px;
-  height: 50px;
+  /* width: 200px;
+  height: 50px; */
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -180,7 +180,7 @@ header {
 
 .team-h-text,
 .clients-h-text {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -191,8 +191,8 @@ header {
 }
 
 .card {
-  width: 270px;
-  height: 422px;
+  /* width: 270px;
+  height: 422px; */
   /* margin-top: 180px;
   margin-bottom: 256px; */
 
@@ -220,8 +220,8 @@ header {
 }
 
 .clients-card {
-  width: 170px;
-  height: 90px;
+  /* width: 170px;
+  height: 90px; */
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -275,8 +275,8 @@ form {
 }
 
 .btn-subscribe {
-  width: 200px;
-  height: 50px;
+  /* width: 200px;
+  height: 50px; */
   color: var(--light-color);
   background-color: var(--link-color);
   font-style: normal;
@@ -294,9 +294,9 @@ form {
 }
 
 .btn-gallery {
-  margin-top: 174px;
+  /* margin-top: 174px;
   width: 128px;
-  height: 38px;
+  height: 38px; */
   background: var(--bkg-lite-color);
   border-radius: 4px;
   font-weight: 500;
@@ -311,8 +311,8 @@ form {
 }
 
 .card-gallery {
-  width: 370px;
-  height: 404px;
+  /* width: 370px;
+  height: 404px; */
   background: var(--light-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
